@@ -7,7 +7,7 @@ def conectar():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",  # Seu usuário MySQL
-        password="iago123",  # Sua senha MySQL
+        password="",  # Sua senha MySQL
         database="cadastro_pessoas"
     )
     return conn
